@@ -16,14 +16,23 @@ description: 'Prompt and workflow for generating conventional commit messages us
 1. Run `git status` to review changed files.
 2. Run `git diff` or `git diff --cached` to inspect changes.
 3. Stage your changes with `git add <file>`.
-4. Construct your commit message using the following XML structure. Ensure the header (type(scope): description) is 50 characters or less.
-5. If the message has body or footer, format it with blank lines: header\n\nbody\n\nfooter.
-6. Present the generated commit message to the user and ask for explicit confirmation before proceeding.
-7. Only after the user confirms, run the following command in your integrated terminal:
+4. Construct your commit message using the following XML structure. 
+   - **CRITICAL: The ENTIRE header (type(scope): description) must be 50 characters or less, including all spaces and punctuation.**
+   - Count every character: `t-y-p-e-(-s-c-o-p-e-)-:- -d-e-s-c-r-i-p-t-i-o-n`
+5. Validate the header length BEFORE presenting it. If over 50 chars, shorten the description or remove the scope.
+6. If the message has body or footer, format it with blank lines: header\n\nbody\n\nfooter.
+7. Present the generated commit message to the user and ask for explicit confirmation before proceeding.
+8. Only after the user confirms, run the following command in your integrated terminal:
 
 ```bash
 git commit -m "type(scope): description"
 ```
+
+**Header Length Examples (50 char max):**
+- ✅ `feat(parser): add array parsing` = 31 chars
+- ✅ `refactor(core): reorganize logic` = 32 chars
+- ❌ `refactor(copilot-instructions): reorganize and improve instructions` = 67 chars (TOO LONG)
+- ✅ `refactor(copilot): improve workflow` = 34 chars (shortened version)
 
 ### Commit Message Structure
 
@@ -32,7 +41,7 @@ git commit -m "type(scope): description"
 	<type>feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert</type>
 	<scope>()</scope>
 	<description>A short, imperative summary of the change</description>
-	<body>(optional: more detailed explanation)</body>
+	<body>required: Explain WHAT changed and WHY (unless it's a trivial docs/style fix)</body>
 	<footer>(optional: e.g. BREAKING CHANGE: details, or issue references)</footer>
 </commit-message>
 ```
@@ -58,8 +67,8 @@ git commit -m "type(scope): description"
 	<scope>Optional, but recommended for clarity.</scope>
 	<description>Required. Use the imperative mood (e.g., "add", not "added").</description>
 	<header>The header (type(scope): description) must be 50 characters or less.</header>
-	<body>Optional. Use for additional context. Separate from header with a blank line.</body>
-	<footer>Use for breaking changes or issue references. Separate from body with a blank line.</footer>
+	<body>Required for most commits. Explain WHAT changed and WHY. Only skip for trivial fixes (typos, formatting).</body>
+	<footer>Optional. Use for breaking changes or issue references. Separate from body with a blank line.</footer>
 </validation>
 ```
 
