@@ -16,3 +16,8 @@ O objetivo da POC é demonstrar que uma IA consegue identificar quando um códig
 ## 4. Métricas de Sucesso da POC
 - Precisão na identificação de "Gaps de Requisito" acima de 80%.
 - Tempo de análise inferior a 30 segundos por ticket/PR.
+
+## Próximas Etapas
+
+- [Roadmap: Construindo a POC (Fase 1)](ROADMAP/README.md)
+- [Roadmap: Escalando para Produção (Fase 2+)](ROADMAP/after-poc-roadmap.md)

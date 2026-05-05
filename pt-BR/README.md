@@ -19,3 +19,11 @@ O **AI/Quality Sentinel** é um agente de governação inteligente que atua como
 
 ## 4. Diferencial AI/works™
 A solução utiliza a infraestrutura segura da TW para garantir que dados sensíveis de clientes e códigos proprietários sejam processados sob rigorosos padrões de privacidade.
+
+## Documentação
+
+- [Prova de Conceito](POC/README.md)
+
+## Idiomas
+
+- [English (en-US)](../en-US/README.md)

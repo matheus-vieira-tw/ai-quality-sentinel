@@ -4,5 +4,6 @@ AI/Quality Sentinel is a repository for a proof of concept focused on using AI t
 
 ## Documentation
 
+- [English (en-US)](en-US/README.md)
 - [Português (pt-BR)](pt-BR/README.md)
 
