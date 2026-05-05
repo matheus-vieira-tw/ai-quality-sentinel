@@ -21,3 +21,8 @@ O objetivo da POC é demonstrar que uma IA consegue identificar quando um códig
 
 - [Roadmap: Construindo a POC (Fase 1)](ROADMAP/README.md)
 - [Roadmap: Escalando para Produção (Fase 2+)](ROADMAP/after-poc-roadmap.md)
+
+## Idiomas
+
+- [English (en-US)](../../en-US/POC/README.md)
+- [Español (es-ES)](../../es-ES/POC/README.md)

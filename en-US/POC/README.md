@@ -21,3 +21,8 @@ The objective of the POC is to demonstrate that an AI can identify when code sub
 
 - [Roadmap: Building the POC (Phase 1)](ROADMAP/README.md)
 - [Roadmap: Scaling to Production (Phase 2+)](ROADMAP/after-poc-roadmap.md)
+
+## Languages
+
+- [Português (pt-BR)](../../pt-BR/POC/README.md)
+- [Español (es-ES)](../../es-ES/POC/README.md)

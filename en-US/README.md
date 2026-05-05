@@ -27,3 +27,4 @@ The solution uses TW's secure infrastructure to ensure that sensitive customer d
 ## Languages
 
 - [Português (pt-BR)](../pt-BR/README.md)
+- [Español (es-ES)](../es-ES/README.md)

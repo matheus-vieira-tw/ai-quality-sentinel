@@ -27,3 +27,4 @@ A solução utiliza a infraestrutura segura da TW para garantir que dados sensí
 ## Idiomas
 
 - [English (en-US)](../en-US/README.md)
+- [Español (es-ES)](../es-ES/README.md)
