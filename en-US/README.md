@@ -20,6 +20,12 @@ Lack of quality in software projects is often not a technical failure, but a **c
 ## 4. AI/works™ Differentiator
 The solution uses TW's secure infrastructure to ensure that sensitive customer data and proprietary code are processed under rigorous privacy standards.
 
+## 👥 Team Roles
+
+Learn about the team structure and how different professionals can help:
+
+- [Team Roles Overview](roles/)
+
 ## Documentation
 
 - [Proof of Concept](POC/README.md)

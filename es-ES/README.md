@@ -20,6 +20,12 @@ La falta de calidad en proyectos de software muchas veces no es una falla técni
 ## 4. Diferenciador AI/works™
 La solución usa la infraestructura segura de TW para garantizar que datos sensibles de clientes y código propietario se procesen bajo rigurosos estándares de privacidad.
 
+## 👥 Roles del Equipo
+
+Conoce la estructura del equipo y cómo diferentes profesionales pueden ayudar:
+
+- [Descripción General de Roles](roles/)
+
 ## Documentación
 
 - [Prueba de Concepto](POC/README.md)
