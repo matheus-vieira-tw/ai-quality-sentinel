@@ -16,9 +16,10 @@ description: 'Prompt and workflow for generating conventional commit messages us
 1. Run `git status` to review changed files.
 2. Run `git diff` or `git diff --cached` to inspect changes.
 3. Stage your changes with `git add <file>`.
-4. Construct your commit message using the following XML structure.
-5. Present the generated commit message to the user and ask for explicit confirmation before proceeding.
-6. Only after the user confirms, run the following command in your integrated terminal:
+4. Construct your commit message using the following XML structure. Ensure the header (type(scope): description) is 50 characters or less.
+5. If the message has body or footer, format it with blank lines: header\n\nbody\n\nfooter.
+6. Present the generated commit message to the user and ask for explicit confirmation before proceeding.
+7. Only after the user confirms, run the following command in your integrated terminal:
 
 ```bash
 git commit -m "type(scope): description"
@@ -45,7 +46,7 @@ git commit -m "type(scope): description"
 	<example>docs: update README with usage instructions</example>
 	<example>refactor: improve performance of data processing</example>
 	<example>chore: update dependencies</example>
-	<example>feat!: send email on registration (BREAKING CHANGE: email service required)</example>
+	<example>feat!: enable email on signup</example>
 </examples>
 ```
 
@@ -56,8 +57,9 @@ git commit -m "type(scope): description"
 	<type>Must be one of the allowed types. See <reference>https://www.conventionalcommits.org/en/v1.0.0/#specification</reference></type>
 	<scope>Optional, but recommended for clarity.</scope>
 	<description>Required. Use the imperative mood (e.g., "add", not "added").</description>
-	<body>Optional. Use for additional context.</body>
-	<footer>Use for breaking changes or issue references.</footer>
+	<header>The header (type(scope): description) must be 50 characters or less.</header>
+	<body>Optional. Use for additional context. Separate from header with a blank line.</body>
+	<footer>Use for breaking changes or issue references. Separate from body with a blank line.</footer>
 </validation>
 ```
 
@@ -65,7 +67,7 @@ git commit -m "type(scope): description"
 
 ```xml
 <final-step>
-	<cmd>git commit -m "type(scope): description"</cmd>
-	<note>Replace with your constructed message. Include body and footer if needed.</note>
+	<cmd>git commit -m "full commit message"</cmd>
+	<note>Construct the full message with proper formatting: header\n\nbody\n\nfooter. Replace with your constructed message.</note>
 </final-step>
 ```
