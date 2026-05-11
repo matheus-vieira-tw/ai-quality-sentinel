@@ -1,48 +1,134 @@
-# Roles del Equipo - AI/Quality Sentinel
+# Roles del Equipo (Version Hackathon) - AI/Quality Sentinel
 
-Este proyecto requiere un equipo multidisciplinario con experiencia específica. A continuación se describe detalladamente cada rol necesario para el éxito del proyecto.
+Esta guia simplifica la estructura del equipo para un hackathon con hasta 3 personas.
+El objetivo es acelerar decisiones, reducir overhead y enfocarse en entregar valor.
 
-## 📋 Roles Necesarios
+## Pagina Principal del Proyecto
 
-### 1. **[Product Owner (PO)](product-owner.md)**
-Define la visión del producto, gestiona las prioridades del backlog y garantiza la alineación con los objetivos del negocio.
+Para la vision general de AI/Quality Sentinel (problema, solucion y objetivos), usa:
+- [README del proyecto (es-ES)](../README.md)
 
-### 2. **[Scrum Master (SM)](scrum-master.md)**
-Facilita ceremonias ágiles, elimina obstáculos y garantiza que el equipo siga prácticas ágiles.
+## Estructura Recomendada (hasta 3 personas)
 
-### 3. **[Quality Assurance (QA)](qa.md)**
-Garantiza la calidad del código, cobertura de pruebas y valida que los requisitos se cumplan antes de la implementación.
+En hackathon, una persona puede asumir mas de un rol. La distribucion siguiente funciona bien para avanzar el POC sin depender de una separacion estricta FE/BE:
 
-### 4. **[Desarrollador Backend (Especialista .NET)](backend-dotnet.md)**
-Diseña e implementa servicios backend, APIs y lógica de negocio utilizando tecnologías .NET.
+| Persona | Enfoque principal | Roles combinados |
+|---|---|---|
+| Persona 1 | Producto y priorizacion | Product Owner + Scrum Master |
+| Persona 2 | Desarrollo (generalista) | Implementacion del core + integraciones |
+| Persona 3 | Desarrollo (generalista) | Implementacion del core + QA practico |
 
-### 5. **[Desarrollador Frontend (Especialista React/Angular)](frontend-react-angular.md)**
-Construye interfaces de usuario y garantiza experiencias de usuario responsivas e intuitivas.
+## Responsabilidades Minimas por Frente
 
-### 6. **[Especialistas Adicionales](additional-specialists.md)**
-DevOps, Ingenieros de Datos, Especialistas en Seguridad y otros roles según sea necesario.
+### 1. Producto y Priorizacion
+- Definir el alcance minimo del hackathon (MVP).
+- Priorizar backlog por impacto en la demo.
+- Mantener alineacion entre problema, solucion y demo final.
 
----
+Referencias:
+- [Product Owner](product-owner.md)
+- [Scrum Master](scrum-master.md)
 
-## 📚 Cómo Usar Esta Documentación
+### 2. Desarrollo Core (Persona 2)
+- Implementar servicios y reglas principales del POC.
+- Integrar datos y flujos necesarios para la demo.
+- Garantizar funcionamiento end-to-end de los casos criticos.
 
-Cada archivo de rol contiene:
-- **Descripción General:** Introducción breve al rol
-- **Cómo Ayudar:** Formas específicas de contribuir a AI/Quality Sentinel
-- **Responsabilidades Principales:** Tareas y entregables principales
-- **Competencias Necesarias:** Habilidades técnicas y habilidades interpersonales necesarias
-- **Nivel de Experiencia:** Experiencia mínima recomendada
+Referencia:
+- [Backend (.NET)](backend-dotnet.md)
 
----
+### 3. Desarrollo Core + Calidad (Persona 3)
+- Compartir implementacion del core con la Persona 2 (sin frontera fija FE/BE).
+- Definir y ejecutar checklist rapido de calidad para flujos criticos.
+- Cubrir lo esencial con pruebas (o guion de pruebas) para reducir riesgo en la presentacion.
 
-## 👥 Equipo Actual
+Referencias:
+- [QA](qa.md)
+- [Frontend (React/Angular)](frontend-react-angular.md)
 
-- **[Matheus Costa Vieira](mailto:matheus.vieira@thoughtworks.com)** - Desarrollador Backend (.NET)
+## Mapa de Contribucion por Rol
 
----
+Esta seccion detalla como cada rol puede acelerar AI/Quality Sentinel en contexto de hackathon.
 
-## 🤝 ¿Interesado en Contribuir?
+### Product Owner (PO)
+- Traduce el problema de calidad en objetivos claros para el MVP.
+- Define criterios de exito de la demo (que debe funcionar para mostrar impacto).
+- Mantiene el foco en valor de negocio y evita alcance que no sera demostrado.
 
-Si estás interesado en unirte al equipo de AI/Quality Sentinel en uno de estos roles, por favor comunícate con nosotros. ¡Siempre estamos buscando profesionales talentosos para ayudar a llevar este proyecto a la vida!
+Referencia:
+- [Product Owner](product-owner.md)
 
-**Contacto:** [Matheus Costa Vieira](mailto:matheus.vieira@thoughtworks.com)
+### Scrum Master (SM)
+- Elimina bloqueos rapidamente (dependencias, decisiones pendientes, alineaciones).
+- Organiza el flujo de trabajo para mantener productividad con bajo overhead.
+- Garantiza una cadencia corta de seguimiento y ajuste del plan.
+
+Referencia:
+- [Scrum Master](scrum-master.md)
+
+### Quality Assurance (QA)
+- Define checklist minimo de calidad para los flujos mas criticos.
+- Valida si los criterios de aceptacion del MVP realmente se cumplen.
+- Ayuda a reducir riesgo en la presentacion con validacion orientada a escenarios.
+
+Referencia:
+- [QA](qa.md)
+
+### Desarrollador Backend (.NET)
+- Implementa servicios y reglas de negocio centrales de la solucion.
+- Conecta integraciones necesarias para demostrar el ciclo completo (intencion -> ejecucion -> estandar).
+- Estructura base tecnica para escalar el POC despues del hackathon.
+
+Referencia:
+- [Backend (.NET)](backend-dotnet.md)
+
+### Desarrollador Frontend (React/Angular)
+- Crea una experiencia minima para demostrar valor con claridad.
+- Traduce resultados tecnicos en visualizaciones comprensibles para jurados y stakeholders.
+- Apoya la narrativa de la demo cuando haya tiempo para evolucion de interfaz.
+
+Referencia:
+- [Frontend (React/Angular)](frontend-react-angular.md)
+
+### Especialistas Adicionales (cuando disponible)
+- DevOps: acelera setup, automatizacion y estabilidad del entorno.
+- Datos: mejora calidad de insumos e interpretacion de resultados.
+- Seguridad: reduce riesgos de exposicion y apoya buenas practicas desde el POC.
+
+Referencia:
+- [Especialistas Adicionales](additional-specialists.md)
+
+## Referencias Rapidas de Todos los Roles
+
+- [Product Owner](product-owner.md)
+- [Scrum Master](scrum-master.md)
+- [QA](qa.md)
+- [Backend (.NET)](backend-dotnet.md)
+- [Frontend (React/Angular)](frontend-react-angular.md)
+- [Especialistas Adicionales](additional-specialists.md)
+
+## Ritmo de Trabajo Ligero (Sugerencia)
+
+- Daily corta: 10 minutos para alinear bloqueos y siguientes tareas.
+- Checkpoint tecnico: 1 o 2 veces al dia para integrar frontend + backend.
+- Revision final: validar guion de demo y plan B para fallas.
+
+## Que No Priorizar en el Hackathon
+
+- Procesos pesados de ceremonia.
+- Cobertura amplia de pruebas fuera de flujos criticos.
+- Alcance grande sin validacion de valor en la demo.
+
+## Interfaz en el Contexto del Hackathon
+
+- La interfaz puede ser minima o incluso reemplazada por flujo API/CLI en la primera iteracion.
+- Prioriza primero: reglas de negocio, integraciones y evidencia de valor funcionando.
+- Si sobra tiempo, evoluciona la interfaz para mejorar la narrativa de la presentacion.
+
+## Equipo Actual
+
+- [Matheus Costa Vieira](mailto:matheus.vieira@thoughtworks.com) - Desarrollo Backend (.NET)
+
+## Siguiente Paso
+
+Despues de validar este formato en todas las carpetas de idioma, mantener actualizaciones futuras sincronizadas entre en-US, pt-BR y es-ES.

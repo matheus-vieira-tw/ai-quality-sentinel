@@ -20,6 +20,19 @@ Lack of quality in software projects is often not a technical failure, but a **c
 ## 4. AI/works™ Differentiator
 The solution uses TW's secure infrastructure to ensure that sensitive customer data and proprietary code are processed under rigorous privacy standards.
 
+## 5. Hackathon Team Model (up to 3 people)
+- **Person 1:** Product and prioritization (PO + SM)
+- **Person 2:** Generalist development focused on core implementation and integrations
+- **Person 3:** Generalist development focused on core implementation and practical QA
+
+For the full role contribution map and detailed responsibilities, see:
+- [Team Roles (Hackathon Version)](roles/README.md)
+
+### Execution Priority for Hackathon
+- Prioritize business rules, integrations, and end-to-end evidence of value.
+- Keep the interface minimal in the first iteration (API/CLI is acceptable for demo validation).
+- Evolve interface polish only if there is remaining time.
+
 ## 👥 Team Roles
 
 Learn about the team structure and how different professionals can help:

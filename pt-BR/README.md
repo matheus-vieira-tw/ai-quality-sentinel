@@ -20,6 +20,19 @@ O **AI/Quality Sentinel** é um agente de governação inteligente que atua como
 ## 4. Diferencial AI/works™
 A solução utiliza a infraestrutura segura da TW para garantir que dados sensíveis de clientes e códigos proprietários sejam processados sob rigorosos padrões de privacidade.
 
+## 5. Modelo de Equipe para Hackathon (até 3 pessoas)
+- **Pessoa 1:** Produto e priorização (PO + SM)
+- **Pessoa 2:** Desenvolvimento generalista focado em implementação core e integrações
+- **Pessoa 3:** Desenvolvimento generalista focado em implementação core e QA prático
+
+Para ver o mapa completo de contribuição por papel e responsabilidades detalhadas:
+- [Papéis da Equipe (Versão Hackathon)](roles/README.md)
+
+### Prioridade de Execução no Hackathon
+- Priorizar regras de negócio, integrações e evidência de valor ponta a ponta.
+- Manter a interface mínima na primeira iteração (API/CLI é válido para validar a demo).
+- Evoluir a interface apenas se houver tempo.
+
 ## 👥 Papéis da Equipe
 
 Conheça a estrutura da equipe e como diferentes profissionais podem ajudar:

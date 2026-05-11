@@ -20,6 +20,19 @@ La falta de calidad en proyectos de software muchas veces no es una falla técni
 ## 4. Diferenciador AI/works™
 La solución usa la infraestructura segura de TW para garantizar que datos sensibles de clientes y código propietario se procesen bajo rigurosos estándares de privacidad.
 
+## 5. Modelo de Equipo para Hackathon (hasta 3 personas)
+- **Persona 1:** Producto y priorización (PO + SM)
+- **Persona 2:** Desarrollo generalista enfocado en implementación core e integraciones
+- **Persona 3:** Desarrollo generalista enfocado en implementación core y QA práctico
+
+Para ver el mapa completo de contribución por rol y responsabilidades detalladas:
+- [Roles del Equipo (Versión Hackathon)](roles/README.md)
+
+### Prioridad de Ejecución en Hackathon
+- Priorizar reglas de negocio, integraciones y evidencia de valor de punta a punta.
+- Mantener la interfaz mínima en la primera iteración (API/CLI es válido para validar la demo).
+- Evolucionar la interfaz solo si queda tiempo.
+
 ## 👥 Roles del Equipo
 
 Conoce la estructura del equipo y cómo diferentes profesionales pueden ayudar:
